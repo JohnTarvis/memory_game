@@ -1,0 +1,65 @@
+*{
+	margin:2px;
+	padding:2px;
+}
+
+html{
+	text-align:center;	
+	background-color:#898;
+}
+
+h1{
+	color:gold;
+}
+
+#game div {
+  /* border: 1px solid black; */
+  width: 120px;
+  height:  180px;
+  margin: 10px;
+  display: inline-block;
+  /* transition-delay:2s; */
+}
+
+/* .flipped{
+	-webkit-transform: scaleX(-0.75);
+	transform: scaleX(-0.75);
+} */
+
+.red{
+	background-color:red;
+}
+
+.blue{
+	background-color:blue;
+}
+
+.green{
+	background-color:green;
+}
+
+.orange{
+	background-color:orange;
+}
+
+.purple{
+	background-color:purple;
+}
+
+.yellow{
+	background-color:yellow;
+}
+
+/*--back of card--*/
+.covered{
+	background-color:#333;
+}
+
+/*--matched/unmatched--*/
+.matched{
+	border:1px solid white;
+}
+
+.unmatched{
+	border:1px solid black;
+}
